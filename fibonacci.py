@@ -1,9 +1,10 @@
-# fibonacci sequence program with user input for range
-n = int(input('enter the range: '))
-first = 0 
-second = 1
+# fibonacci sequence program w/o user input
 
-for i in range(n):
+term = 10   # number of terms
+first = 0   # first number
+second = 1  # second number
+
+for i in range(term):
     print(first)
 
     next = first + second
